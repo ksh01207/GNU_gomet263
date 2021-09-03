@@ -1,0 +1,7 @@
+.d-none{ display: none !important}
+#hd{background-color: white;}
+#hd_wrapper{height: auto; display:flex;
+            justify-content:space-between;
+            align-items: center;}
+#gnb .gnb_wrap{width: auto;}
+#hd_wrapper::after{display: none}

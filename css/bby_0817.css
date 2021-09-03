@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'twaysky';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twaysky.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.d-none{ display: none !important}
+#hd{
+    background-color: white; border-bottom: 1px solid #ccc; padding: 20px 0;
+    position: fixed; left:0; right:0; top:0;
+  }
+#hd_wrapper{ height: auto; display: flex;
+             justify-content: space-between;
+             align-items: center;
+          }
+#gnb .gnb_wrap{ width: auto;}
+#hd_wrapper::after, .gnb_1dli .bg{ display: none}
+
+/*전체버튼*/
+#gnb .gnb_menu_btn{ display: none }
+
+#logo{ padding: 0}
+#gnb_1dul .gnb_1da{ padding: 0  25px; font-size: 1.2rem}
+#gnb #gnb_1dul{ border-bottom:0}
+#gnb .gnb_1dli{ line-height: 1}
+
+#wrapper { padding-top: 80px; }
+
+.gnb_2dul{ display: block}

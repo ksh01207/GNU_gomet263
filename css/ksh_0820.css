@@ -1,0 +1,149 @@
+
+.d-none {
+  display: none !important;
+}
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+.inner{ max-width:1280px ; margin: 0 auto}
+
+@media (min-width: 576px) {
+  .text-sm-left {
+    text-align: left !important;
+  }
+  .text-sm-right {
+    text-align: right !important;
+  }
+  .text-sm-center {
+    text-align: center !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .text-md-left {
+    text-align: left !important;
+  }
+  .text-md-right {
+    text-align: right !important;
+  }
+  .text-md-center {
+    text-align: center !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .text-lg-left {
+    text-align: left !important;
+  }
+  .text-lg-right {
+    text-align: right !important;
+  }
+  .text-lg-center {
+    text-align: center !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .text-xl-left {
+    text-align: left !important;
+  }
+  .text-xl-right {
+    text-align: right !important;
+  }
+  .text-xl-center {
+    text-align: center !important;
+  }
+}
+
+/*------------------------상단*/
+#hd{background-color: #2f2f2f;}
+
+
+
+#hd_wrapper{display: flex; justify-content: space-between;}
+#gnb{right:40px;}
+#gnb_1dul{color:white;}
+#gnb_all{margin-top: 100px;}
+/* #hd_wrapper .hd_login{font-size: 0;background-image: url(/ncs/img/login.png);z-index: 10000; } */
+#hd_wrapper .hd_login{z-index: 100000; top:25px; right: 100px;}
+#hd_wrapper .hd_login li{border:0;}
+#hd_wrapper .hd_login li:not(.tnb_admin) a{
+  display: block;
+  width:35px;height:100px;
+  background-image: url(/ncs/img/login2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 0;
+  background-position: center;
+}
+
+
+/*------------------------상단끝*/
+
+
+
+
+
+/* -----------------------메인배너 */
+#wrapper .main_img{width: 100%;}
+#wrapper .sw_tit, #wrapper .sw_date{display:none; }
+#wrapper .sw_img{width: 100%;height: 100%; background-repeat:no-repeat; }
+#wrapper .swiper-container{height: 1080px;}
+/* -----------------------메인배너 끝 */
+
+
+
+
+/*컨텐츠*/
+#wrapper .rooms{margin-top:150px;}
+#divConcierge .lt_info{display:none;}
+
+
+
+
+
+/*컨텐츠 끝*/
+
+
+
+
+
+
+/*------------------------푸터*/
+#ft{background-color:white; }
+#ft .lt_info{display: none;}
+#ft .container{width:1200px; margin: 0 auto;  }
+#ft .container .ft_top{display: flex; justify-content: space-between;}
+#ft .container .ft_top .ft_top_left{float: left; text-align: left; line-height: 2rem; margin-top:5px;}
+/* #ft .container .ft_top .ft_top_left .ft_top_left_title{font-size: 20px; font-family: 'Recipekorea'; color: #333;} */
+#ft .container .ft_top .ft_top_left .ft_top_left_account{font-style: italic; font-weight: bold;color: #333; font-size: 15px; font-family: 'Barlow', sans-serif;}
+
+
+#ft .container .ft_top .ft_top_right {text-align: right;}
+#ft .container .ft_top .ft_top_right .ft_top_right_cscenter{font-size: 38px; color: #333; font-family: 'Barlow', sans-serif; }
+#ft .container .ft_top .ft_top_right .ft_top_right_cstel{font-size: 15px; line-height: 20px; color: #333; font-family: 'Barlow', sans-serif;}
+#ft .container .ft_top .ft_top_right .ft_top_right_domicile{color: #333;  font-size: 20px;}
+
+
+#ft .container .ft_bottom{border-top: solid 2px #666; margin-top: 30px; }
+#ft .container .ft_bottom .ft_menu{font-size:12px;text-align: left; margin-top: 20px; color:#666; display: flex; }
+
+
+
+/*------------------------푸터끝*/
+    padding: 0;
+    line-height: 33px;
+    margin-top: 5px;
+    background: #aa8066 !important;
+    border-color: #aa8066 !important;
+    display: inline-block;
+
+  }
